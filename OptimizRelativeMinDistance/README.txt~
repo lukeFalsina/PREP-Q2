@@ -1,0 +1,43 @@
+Evaluation of the optimal Delta to minimize N
+Luca Falsina - StudentID 201301303
+
+This simple program was developed with the intent of
+helping to evaluate the best parameter Delta that
+should be chosen to minimize the amount of rows, N,
+of the random matrix M in the purpoused code
+
+-------------------------------------------------------- 
+INSTALLATION
+--------------------------------------------------------
+This program is written in CUDA C and so it is necessary 
+that the CUDA toolkit is correctly installed on your
+machine. Assuming so follow these simple steps:
+
+1. From the main folder enter the Debug directory:
+   cd Debug/
+
+2. Compile the whole project:
+   make all
+
+3. If everything worked fine, you should see the executable
+   "OptimizRelativeMinDistance". Run it:
+   ./OptimizRelativeMinDistance
+
+----------------------------------------------------------
+USE & RESULTS
+----------------------------------------------------------
+Please note that the analysis could be executed with values different from the default ones.
+In particular 3 parameters could be provided when launching the program:
+	1. Numbers of intervals tested for Delta [positive integer value] (Default = 1000)
+	2. Maximum value tested for Delta [float value between 0 and 1] (Default = 1)
+	3. Enable/Disable Verbose mode [provide a non-null string to enable this mode.. e.g. v] (Default = Disable)
+
+The same information on the available parameters can be 
+obtained by running the program without any parameter.
+
+If you want to run the program in verbose mode with an 
+high number of tested intervals, the advice is to redirect
+the outcome of the application to an output text file.
+e.g. ./OptimizRelativeMinDistance 1000000 1 verb > ResultFile.txt
+
+

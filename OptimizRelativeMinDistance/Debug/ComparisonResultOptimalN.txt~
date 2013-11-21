@@ -1,0 +1,33 @@
+
+Evaluation of the parameter Delta in order to find out the optimal amount of rows, N
+
+Test Condition:
+Domain of the parameter delta = [0, 0.650000]
+Number of samples considered = 10000
+Interval between two adjacent delta samples = 0.000100
+
+
+The minimum amount of rows is N = 13.458977 k obtained by taking delta = 0.140400
+
+Evaluation of the parameter Delta in order to find out the optimal amount of rows, N
+
+Test Condition:
+Domain of the parameter delta = [0, 0.650000]
+Number of samples considered = 1000000
+Interval between two adjacent delta samples = 0.000001
+
+
+The minimum amount of rows is N = 13.458973 k obtained by taking delta = 0.140500
+
+Evaluation of the parameter Delta in order to find out the optimal amount of rows, N
+
+Test Condition:
+Domain of the parameter delta = [0, 0.650000]
+Number of samples considered = 10000000
+Interval between two adjacent delta samples = 0.000000
+
+
+The minimum amount of rows is N = 13.458972 k obtained by taking delta = 0.140529
+
+
+
